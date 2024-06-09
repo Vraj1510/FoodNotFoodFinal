@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "food-classifier"
+version = "0.1.0"
+description = "A Streamlit app for classifying food images"
+authors = ["Your Name <your.email@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^1.21.0"
+tensorflow = ">=2.0.0"
+pillow = ">=8.0.0"
+streamlit = ">=1.0.0"
+streamlit-extras = ">=0.0.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
