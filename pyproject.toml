@@ -11,6 +11,7 @@ tensorflow = ">=2.0.0"
 pillow = ">=8.0.0"
 streamlit = ">=1.0.0"
 streamlit-extras = ">=0.0.1"
+huggingface_hub = ">=0.8.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
