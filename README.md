@@ -19,7 +19,13 @@ The Food or Not Food Keras model is a Convolutional Neural Network (CNN) designe
 
 ## Results
 
-Through iterative model improvements and extensive testing, the model achieved a high classification accuracy on the test set. Detailed results and performance metrics can be found in the `results` directory.
+Through iterative model improvements and extensive testing, the model achieved a high classification accuracy on the test set. Detailed results and performance metrics can be found in the `results` directory
+
+
+<img width="1469" alt="Screenshot 2024-07-30 at 9 48 46 PM" src="https://github.com/user-attachments/assets/0cca77ab-32bf-4288-b6c0-559b530eec27">
+<img width="1470" alt="Screenshot 2024-07-30 at 9 52 49 PM" src="https://github.com/user-attachments/assets/9a8cddd5-2396-4d08-ae45-ab28f03f1b7c">
+<img width="1470" alt="Screenshot 2024-07-30 at 9 53 44 PM" src="https://github.com/user-attachments/assets/852f9c8a-ab79-4c8d-b963-2bccd7a0b374">
+
 
 ## Contributing
 
