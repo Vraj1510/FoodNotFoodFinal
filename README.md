@@ -11,54 +11,11 @@ This project is a Python application designed to classify images as either food 
 
 ## Dataset
 
-The project uses the [Food 5K dataset](http://foodcam.mobi/dataset/), which contains 5000 images split into three sets: training, validation, and testing. Each set contains images labeled as either food or non-food.
-
-## Installation
-
-To run this project locally, follow these steps:
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/vraj1510/food-image-classifier.git
-   cd food-image-classifier
-
-
-2. **Create a virtual environment and activate it:**
-   ```bash
-   python3 -m venv venv
-   source venv/bin/activate   # On Windows, use `venv\Scripts\activate`
-   ```
-
-3. **Install the required dependencies:**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. **Download the dataset:**
-   Download the Food 5K dataset from [here](http://foodcam.mobi/dataset/) and extract it into the `data` directory within the project.
-
-## Usage
-
-To train and evaluate the model, use the following commands:
-
-1. **Training the model:**
-   ```bash
-   python train.py
-   ```
-
-2. **Evaluating the model:**
-   ```bash
-   python evaluate.py
-   ```
-
-3. **Classifying new images:**
-   ```bash
-   python classify.py --image_path path/to/your/image.jpg
-   ```
+The project uses the [Food 5K dataset](https://www.kaggle.com/datasets/trolukovich/food5k-image-dataset), which contains 5000 images split into three sets: training, validation, and testing. Each set contains images labeled as either food or non-food.
 
 ## Model Architecture
 
-The model architecture is based on a convolutional neural network (CNN) designed for image classification. It includes multiple convolutional layers, pooling layers, and fully connected layers. Data augmentation techniques such as rotation, flipping, and zooming were applied to improve model generalization.
+The Food or Not Food Keras model is a Convolutional Neural Network (CNN) designed to classify images as either containing food or not. The model accepts images of shape (224, 224, 3) and outputs a binary classification. Leveraging a pre-trained feature extractor Efficient-Net-V2, the model is trained on a diverse dataset of food and non-food images to ensure robust performance. It achieves high accuracy, making it suitable for applications in food recognition systems. This model can be easily integrated into various projects to automate the process of identifying food in images.
 
 ## Results
 
