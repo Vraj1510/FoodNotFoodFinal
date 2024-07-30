@@ -19,7 +19,7 @@ To run this project locally, follow these steps:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/food-image-classifier.git
+   git clone https://github.com/vraj1510/food-image-classifier.git
    cd food-image-classifier
 
 
@@ -78,8 +78,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - The contributors of various open-source libraries used in this project.
 
 ---
-
-Feel free to reach out if you have any questions or need further assistance. Happy coding!
-```
-
-Replace `your-username` with your actual GitHub username and adjust any specific paths or details as needed. This README provides a comprehensive overview of your project, including installation instructions, usage examples, and additional information.
